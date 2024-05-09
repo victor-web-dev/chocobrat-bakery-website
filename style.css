@@ -15,6 +15,26 @@ header {
     margin-bottom: 5px;
     
 }
+/* unvisited link */
+a:link {
+    color: black
+}
+
+/* visited link */
+a:visited {
+    color: rgb(123, 83, 48);
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    color: purple
+}
 #top-nav, #top-ul, li {
     display: flex;
     list-style: none;
