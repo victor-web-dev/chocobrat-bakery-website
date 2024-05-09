@@ -253,3 +253,36 @@
   text-decoration: none;
   color: #4a1d1f;
 }
+
+/* section 3 */
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 360px;
+  width: 100%;
+  background-color: #fbedcd;
+}
+
+.section3 h3 {
+  font-size: 1.7rem;
+  color: #4a1d1f;
+}
+
+.section3 p {
+  font-size: 1.2rem;
+  width: 690px;
+  text-align: center;
+}
+
+.section3 div > button {
+  background-color: #4a1d1f;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
