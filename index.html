@@ -3,11 +3,310 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>chocobrat Bakery</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>Chocobrat</h1>
+    <nav id="top-nav" aria-label="Primary Navigation">
+      <ul id="top-ul">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Categories</a>
+          <div class="dropdown-content">
+            <a href="#">Category 1</a>
+            <a href="#">Category 2</a>
+            <a href="#">Category 3</a>
+          </div>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div id="search-container">
+      <div id="search-bar">
+        <div id="search-field">
+          <label for="message-area"></label>
+          <textarea id="message-area" name="message" placeholder="Search.."></textarea>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 16 16">
+          <path fill="white" fill-rule="evenodd" d="M11.5 7a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-.82 4.74a6 6 0 1 1 1.06-1.06l2.79 2.79a.75.75 0 1 1-1.06 1.06z" clip-rule="evenodd"/></svg>
+      </div>
+    </div>
+    <div class="top-icons">
+      <img class="icons" src="./assets/icon-person.svg" alt="icon person">
+      <img class="icons" src="./assets/icon-cart.svg" alt="icon cart">
+    </div>
+    </header>
+    <main>
+      <section class="section1">
+        <article class="section1-container">
+          <section>
+            <div class="section1-head">
+              <h1>Bring you Happiness through a piece of cake</h2>
+              <p>
+                We make different types of cakes, chocolate, soft cookies,
+                cheesecake pie or anything you want
+              </p>
+              <div class="section1-head-btn">
+                <button>Order Now</button>
+                <button>See All Menus</button>
+              </div>
+            </div>
+            <div class="section1-head-img">
+              <img src="./assets/img/Chocolate-Cake-1.png" alt="" />
+            </div>
+            <div class="section1-head-cakes">
+              <ul>
+                <li>
+                  <p>← 01/<span>12</span> →</p>
+                </li>
+                <li>
+                  <img src="./assets/img/cake-list1.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./assets/img/cake-list2.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./assets/img/cake-list3.jpg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="section1-middle-txt">
+            <h2>Try Our Best selling</h2>
+            <hr />
+            <div>
+              <p>
+                Here&#8217;s our best creations that everyone loves. Lightness
+                and sweetness of the cake make you want more and more. Start
+                from cake, bread and other creations.
+              </p>
+            </div>
+          </section>
+          <section class="section1-bottom-cakes">
+            <div class="section1-bottom-cakes-container">
+              <div class="section1-bottom-item">
+                <div>
+                  <img src="./assets/img/cake-list3.jpg" alt="">
+                </div>
+                <div>
+                  <h3>Red Velvet & Cream Cheese (500g)</h3>
+                </div>
+                <div>
+                  <p>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <span>Ratings</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section1-bottom-item">
+                <div>
+                  <img src="./assets/img/cake-list3.jpg" alt="">
+                </div>
+                <div>
+                  <h3>Red Velvet & Cream Cheese (500g)</h3>
+                </div>
+                <div>
+                  <p>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <span>Ratings</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section1-bottom-item">
+                <div>
+                  <img src="./assets/img/cake-list3.jpg" alt="">
+                </div>
+                <div>
+                  <h3>Red Velvet & Cream Cheese (500g)</h3>
+                </div>
+                <div>
+                  <p>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <span>Ratings</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section1-bottom-item">
+                <div>
+                  <img src="./assets/img/cake-list3.jpg" alt="">
+                </div>
+                <div>
+                  <h3>Red Velvet & Cream Cheese (500g)</h3>
+                </div>
+                <div>
+                  <p>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <span>Ratings</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section1-bottom-item">
+                <div>
+                  <img src="./assets/img/cake-list3.jpg" alt="">
+                </div>
+                <div>
+                  <h3>Red Velvet & Cream Cheese (500g)</h3>
+                </div>
+                <div>
+                  <p>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <span>Ratings</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section1-bottom-item">
+                <div>
+                  <img src="./assets/img/cake-list3.jpg" alt="">
+                </div>
+                <div>
+                  <h3>Red Velvet & Cream Cheese (500g)</h3>
+                </div>
+                <div>
+                  <p>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <span>Ratings</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section1-bottom-item">
+                <div>
+                  <img src="./assets/img/cake-list3.jpg" alt="">
+                </div>
+                <div>
+                  <h3>Red Velvet & Cream Cheese (500g)</h3>
+                </div>
+                <div>
+                  <p>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <img src="./assets/img/bx-star.svg"/>
+                    <span>Ratings</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button>View More →</button>
+            </div>
+          </section>
+        </article>
+      </section>
+      <section class="section2">
+        <div class="section2-item1">
+          <img src="./assets/img/dough.jpg" alt="">
+          <div>
+            <h3>We Bake for you
+              Fresh From the oven</h3>
+              <p>
+                We use quality materials that we get directly from farmers.
+                our backers are exeperienced people in the food sector. So
+                that the products we produce are guaranteed quality and
+                taste. It`s so delicious, you have to try it!
+              </p>
+              <a href="">
+                Read More →
+              </a>
+          </div>
+        </div>
+        <div class="section2-item2">
+          <img src="./assets/img/dough.jpg" alt="">
+          <div>
+            <h3>Come and choose
+              your favourites</h3>
+              <p>
+                Try to come to our shop directly to enjoy the delicious taste
+                of the cake that just came out of the oven. While enjoying it
+                with a cup of coffee or tea in our very convenient shop. very
+                suitable for chatting, meeting with your team.
+              </p>
+              <a href="">
+                Read More →
+              </a>
+          </div>
+        </div>
+      </section>
+      <section class="section3">
+        <h3>
+          For Cake Orders above 1 KG
+        </h3>
+        <p>
+          Please visit our nearest store or
+call us on +91 00 00 00 00 00 (10 AM to 7 PM) 
+to place your orders.
+        </p>
+        <div>
+          <button>Contact us now</button>
+        </div>
+      </section>
+       <article id="a-darren" class="section4">
+      <svg id="quote1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 16 16">
+        <path fill="rgba(255,228,196,0.5)" d="M3.516 7a3.5 3.5 0 1 1-3.5 3.5L0 10a7 7 0 0 1 7-7v2a4.97 4.97 0 0 0-3.536 1.464a5.01 5.01 0 0 0-.497.578c.179-.028.362-.043.548-.043zm9 0a3.5 3.5 0 1 1-3.5 3.5L9 10a7 7 0 0 1 7-7v2a4.97 4.97 0 0 0-3.536 1.464a5.01 5.01 0 0 0-.497.578c.179-.028.362-.043.549-.043z"/></svg>
+      <h3>QUOTES</h3>
+      <h2>the eggless cakes here are really good.
+      Had ordered a kit kat cake which was really good. Surely worth a try.</h2>
+      <svg id="quote2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 16 16">
+        <path fill=" rgba(255,228,196,0.5)" d="M12.5 10A3.5 3.5 0 1 1 16 6.5l.016.5a7 7 0 0 1-7 7v-2a4.97 4.97 0 0 0 3.536-1.464a5.01 5.01 0 0 0 .497-.578a3.547 3.547 0 0 1-.549.043zm-9 0A3.5 3.5 0 1 1 7 6.5l.016.5a7 7 0 0 1-7 7v-2a4.97 4.97 0 0 0 3.536-1.464a5.01 5.01 0 0 0 .497-.578a3.547 3.547 0 0 1-.549.043z"/></svg>
+    <img src="./assets/person.webp" alt="darren dunlap">
+    <p id="darren">Darren Dunlap</p>
+    <p>CEO & Founder at Flex.co</p>
+      </article>
+    </main>
+    <footer>
+    <section id="top-footer">
+    <h1 id="bot-h1">Chocobrat</h1>
+    <nav id="bot-nav" aria-label="Secondary-Navigation">
+      <ul id="bot-ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a>
+        <li><a href="#">About Us</a></li>  
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </nav>
+    </section>
+    <section id="bot-footer">
+        <div id="copyright">
+          <p>&#169 2024 Chocobrat. All rights reserved</p>
+        </div>
+        <div id="bot-icons">
+          <img class="icons" src="./assets/icon-facebook.svg" alt="icon facebook">
+          <img class="icons" src="./assets/icon-twitter.svg" alt="icon twitter">
+          <img class="icons" src="./assets/icon-instagram.svg" alt="icon instagram">
+          <img class="icons" src="./assets/icon-github.svg" alt="icon github">
+          <img class="icons" src="./assets/icon-linkedin.svg" alt="icon linkedin">
+        </div>
+    </section>
+    
+  </footer>
   </body>
 </html>
